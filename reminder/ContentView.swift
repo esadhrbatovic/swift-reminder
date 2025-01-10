@@ -1,6 +1,16 @@
 import SwiftUI
 import UserNotifications
 
+//TODO: persistence mit core data / firebase statt user defaults? - user defaults wäre ausreichend
+//TODO: landscape mode kompatibel machen
+//TODO: input validation
+//TODO: erledigte reminder löschbar machen
+//TODO: Intervall wording - zB. alle 1 Stunden - fix
+//TODO: pomodoro timer sollte vibrieren / ton abspielen
+//TODO: split code
+//TODO: sinnvolle Sortierung - due date
+//TODO: notification soll richtigen tab aufmachen - oder reminder aufmachen mit "erledigen" option
+
 let reminderIntervals = ["Alle paar Minuten", "Alle paar Stunden", "Jeden Tag", "Wöchentlich"]
 let daysOfWeek = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
