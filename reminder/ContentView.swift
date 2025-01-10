@@ -449,7 +449,7 @@ struct AlwaysOnView: View {
                 let remindersForInterval = reminders(for: intervalIndex)
 
                 if !remindersForInterval.isEmpty {
-                    Section(header: Text("Intervall: \(reminderIntervals[intervalIndex])")) {
+                    Section(header: Text("\(reminderIntervals[intervalIndex])")) {
                         ForEach(remindersForInterval) { reminder in
                             ReminderRow(reminder: reminder, intervalIndex: intervalIndex)
                                 .onTapGesture {
