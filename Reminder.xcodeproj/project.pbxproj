@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C793AA492CDABEEE008D4EEB /* reminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793AA482CDABEEE008D4EEB /* reminderApp.swift */; };
+		C793AA492CDABEEE008D4EEB /* ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793AA482CDABEEE008D4EEB /* ReminderApp.swift */; };
 		C793AA4B2CDABEEE008D4EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793AA4A2CDABEEE008D4EEB /* ContentView.swift */; };
 		C793AA4D2CDABEF0008D4EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793AA4C2CDABEF0008D4EEB /* Assets.xcassets */; };
 		C793AA502CDABEF0008D4EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793AA4F2CDABEF0008D4EEB /* Preview Assets.xcassets */; };
+		C7F757DA2D3DDEE3000C970A /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7F757D82D3DDEE3000C970A /* ReminderModel.xcdatamodeld */; };
+		C7F757DD2D3DDF56000C970A /* ReminderEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757DB2D3DDF56000C970A /* ReminderEntity+CoreDataClass.swift */; };
+		C7F757DE2D3DDF56000C970A /* ReminderEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757DC2D3DDF56000C970A /* ReminderEntity+CoreDataProperties.swift */; };
+		C7F757E02D3DDF7A000C970A /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757DF2D3DDF7A000C970A /* PersistenceController.swift */; };
+		C7F757E22D3DE4EB000C970A /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757E12D3DE4EB000C970A /* ReminderManager.swift */; };
+		C7F757E42D3DF1D9000C970A /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757E32D3DF1D9000C970A /* NotificationDelegate.swift */; };
+		C7F757EB2D3E077C000C970A /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757EA2D3E077C000C970A /* ToDoView.swift */; };
+		C7F757ED2D3E07B9000C970A /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757EC2D3E07B9000C970A /* AddToDoView.swift */; };
+		C7F757EF2D3E07F4000C970A /* AlwaysOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757EE2D3E07F4000C970A /* AlwaysOnView.swift */; };
+		C7F757F32D3E085C000C970A /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757F22D3E085C000C970A /* DateFormatter.swift */; };
+		C7F757F52D3E086F000C970A /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757F42D3E086F000C970A /* DoneView.swift */; };
+		C7F757F72D3E0897000C970A /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757F62D3E0897000C970A /* PomodoroView.swift */; };
+		C7F757F92D3E08E3000C970A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F757F82D3E08E3000C970A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C793AA452CDABEEE008D4EEB /* reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C793AA482CDABEEE008D4EEB /* reminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderApp.swift; sourceTree = "<group>"; };
+		C793AA452CDABEEE008D4EEB /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C793AA482CDABEEE008D4EEB /* ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderApp.swift; sourceTree = "<group>"; };
 		C793AA4A2CDABEEE008D4EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C793AA4C2CDABEF0008D4EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C793AA4F2CDABEF0008D4EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7F757D92D3DDEE3000C970A /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		C7F757DB2D3DDF56000C970A /* ReminderEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C7F757DC2D3DDF56000C970A /* ReminderEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7F757DF2D3DDF7A000C970A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		C7F757E12D3DE4EB000C970A /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		C7F757E32D3DF1D9000C970A /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		C7F757EA2D3E077C000C970A /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		C7F757EC2D3E07B9000C970A /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		C7F757EE2D3E07F4000C970A /* AlwaysOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysOnView.swift; sourceTree = "<group>"; };
+		C7F757F22D3E085C000C970A /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		C7F757F42D3E086F000C970A /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		C7F757F62D3E0897000C970A /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
+		C7F757F82D3E08E3000C970A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +61,7 @@
 		C793AA3C2CDABEEE008D4EEB = {
 			isa = PBXGroup;
 			children = (
-				C793AA472CDABEEE008D4EEB /* reminder */,
+				C793AA472CDABEEE008D4EEB /* Reminder */,
 				C793AA462CDABEEE008D4EEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +69,24 @@
 		C793AA462CDABEEE008D4EEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C793AA452CDABEEE008D4EEB /* reminder.app */,
+				C793AA452CDABEEE008D4EEB /* Reminder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C793AA472CDABEEE008D4EEB /* reminder */ = {
+		C793AA472CDABEEE008D4EEB /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				C793AA482CDABEEE008D4EEB /* reminderApp.swift */,
-				C793AA4A2CDABEEE008D4EEB /* ContentView.swift */,
+				C7F757FC2D3E0928000C970A /* Utils */,
+				C7F757FA2D3E08FC000C970A /* Persistence */,
+				C7F757F82D3E08E3000C970A /* Constants.swift */,
+				C7F757E92D3E076B000C970A /* Views */,
+				C793AA482CDABEEE008D4EEB /* ReminderApp.swift */,
 				C793AA4C2CDABEF0008D4EEB /* Assets.xcassets */,
 				C793AA4E2CDABEF0008D4EEB /* Preview Content */,
+				C7F757D82D3DDEE3000C970A /* ReminderModel.xcdatamodeld */,
 			);
-			path = reminder;
+			path = Reminder;
 			sourceTree = "<group>";
 		};
 		C793AA4E2CDABEF0008D4EEB /* Preview Content */ = {
@@ -67,12 +97,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C7F757E92D3E076B000C970A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C793AA4A2CDABEEE008D4EEB /* ContentView.swift */,
+				C7F757EA2D3E077C000C970A /* ToDoView.swift */,
+				C7F757EC2D3E07B9000C970A /* AddToDoView.swift */,
+				C7F757EE2D3E07F4000C970A /* AlwaysOnView.swift */,
+				C7F757F42D3E086F000C970A /* DoneView.swift */,
+				C7F757F62D3E0897000C970A /* PomodoroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7F757FA2D3E08FC000C970A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				C7F757DF2D3DDF7A000C970A /* PersistenceController.swift */,
+				C7F757DB2D3DDF56000C970A /* ReminderEntity+CoreDataClass.swift */,
+				C7F757DC2D3DDF56000C970A /* ReminderEntity+CoreDataProperties.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		C7F757FC2D3E0928000C970A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C7F757E32D3DF1D9000C970A /* NotificationDelegate.swift */,
+				C7F757E12D3DE4EB000C970A /* ReminderManager.swift */,
+				C7F757F22D3E085C000C970A /* DateFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C793AA442CDABEEE008D4EEB /* reminder */ = {
+		C793AA442CDABEEE008D4EEB /* Reminder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C793AA532CDABEF0008D4EEB /* Build configuration list for PBXNativeTarget "reminder" */;
+			buildConfigurationList = C793AA532CDABEF0008D4EEB /* Build configuration list for PBXNativeTarget "Reminder" */;
 			buildPhases = (
 				C793AA412CDABEEE008D4EEB /* Sources */,
 				C793AA422CDABEEE008D4EEB /* Frameworks */,
@@ -82,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = reminder;
+			name = Reminder;
 			productName = reminder;
-			productReference = C793AA452CDABEEE008D4EEB /* reminder.app */;
+			productReference = C793AA452CDABEEE008D4EEB /* Reminder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C793AA402CDABEEE008D4EEB /* Build configuration list for PBXProject "reminder" */;
+			buildConfigurationList = C793AA402CDABEEE008D4EEB /* Build configuration list for PBXProject "Reminder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C793AA442CDABEEE008D4EEB /* reminder */,
+				C793AA442CDABEEE008D4EEB /* Reminder */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F757F72D3E0897000C970A /* PomodoroView.swift in Sources */,
+				C7F757DE2D3DDF56000C970A /* ReminderEntity+CoreDataProperties.swift in Sources */,
+				C7F757DD2D3DDF56000C970A /* ReminderEntity+CoreDataClass.swift in Sources */,
 				C793AA4B2CDABEEE008D4EEB /* ContentView.swift in Sources */,
-				C793AA492CDABEEE008D4EEB /* reminderApp.swift in Sources */,
+				C7F757F32D3E085C000C970A /* DateFormatter.swift in Sources */,
+				C7F757E22D3DE4EB000C970A /* ReminderManager.swift in Sources */,
+				C7F757F92D3E08E3000C970A /* Constants.swift in Sources */,
+				C7F757EF2D3E07F4000C970A /* AlwaysOnView.swift in Sources */,
+				C7F757E02D3DDF7A000C970A /* PersistenceController.swift in Sources */,
+				C7F757DA2D3DDEE3000C970A /* ReminderModel.xcdatamodeld in Sources */,
+				C7F757ED2D3E07B9000C970A /* AddToDoView.swift in Sources */,
+				C7F757F52D3E086F000C970A /* DoneView.swift in Sources */,
+				C793AA492CDABEEE008D4EEB /* ReminderApp.swift in Sources */,
+				C7F757EB2D3E077C000C970A /* ToDoView.swift in Sources */,
+				C7F757E42D3DF1D9000C970A /* NotificationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C793AA402CDABEEE008D4EEB /* Build configuration list for PBXProject "reminder" */ = {
+		C793AA402CDABEEE008D4EEB /* Build configuration list for PBXProject "Reminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C793AA512CDABEF0008D4EEB /* Debug */,
@@ -335,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C793AA532CDABEF0008D4EEB /* Build configuration list for PBXNativeTarget "reminder" */ = {
+		C793AA532CDABEF0008D4EEB /* Build configuration list for PBXNativeTarget "Reminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C793AA542CDABEF0008D4EEB /* Debug */,
@@ -345,6 +421,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7F757D82D3DDEE3000C970A /* ReminderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7F757D92D3DDEE3000C970A /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = C7F757D92D3DDEE3000C970A /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C793AA3D2CDABEEE008D4EEB /* Project object */;
 }
